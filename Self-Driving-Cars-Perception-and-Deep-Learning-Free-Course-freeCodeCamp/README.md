@@ -1,0 +1,74 @@
+# Self-Driving Cars Perception and Deep Learning - Free Course from freeCodeCamp.org
+
+![](./docs/https___img.youtube.com_vi_cPOtULagNnI_hqdefault.avif)
+
+## Overview
+
+Notes and key takeaways of the Self-Driving Cars Perception applied Deep Learning Free Course from [freeCodeCamp.org](freeCodeCamp.org).
+
+Learn computer vision and perception for self-driving cars with this deep learning course. Covering road segmentation, object detection and tracking, and 3D data visualization.
+
+- ~2 hours No certificate
+- Totally FREE (to access the lecture, check out the link in [References](#references) section)
+
+**Instructor**
+
+- Sakshay Mahna from [(Robotics with Sakshay)](https://www.youtube.com/channel/UC57lEMTXZzXYu_y0FKdW6xA)
+  
+**Course Objectives:**
+
+- Gain a comprehensive understanding of the key computer vision tasks involved in self-driving car perception
+- Deepen knowledge of deep learning techniques, particularly Convolutional Neural Networks (CNNs), for addressing these tasks
+- Learn how to implement and evaluate deep learning models for road segmentation, object detection, tracking, and camera to bird's eye view (BEV) mapping
+- Acquire hands-on experience with real-world data and popular deep learning libraries
+
+## Course Contents
+
+- [00-Introduction](./00-introduction.md)
+- [01-Fully Convolutional Network | Road Segmentation](./01-FCN-Road-Segmentation.md)
+- [02-YOLO | 2D Object Detection](./02-YOLO-2D-Object-Detection.md)
+- [03-Deep SORT | Object Tracking](./03-Deep-SORT-Object-Tracking.md)
+- [04-KITTI 3D Data Visualization | Homogenous Transformations](./04-KITTI-3D-Data-Visualization-Homogenous-Transformations.md)
+- [05-Multi Task Attention Network (MTAN) | Multi Task Learning](./05-MTAN-Multi-Task-Learning.md)
+- [06-SFA 3D | 3D Object Detection](./06-SFA-3D-3D-Object-Detection.md)
+- [07-UNetXST | Camera to Bird's Eye View](./07-UNetXST-Camera-to-Bird's-Eye-View.md)
+
+
+## Read the Courses Online
+
+If you'd like to read the Courses Online, you can visit [Perception for Self-Driving Cars Applied Deep Learning](#).
+
+## References
+
+
+- You may access this course using the links below: 
+  - [freeCodeCamp - Computer Vision and Perception for Self-Driving Cars (Deep Learning Course)](https://www.youtube.com/watch?v=cPOtULagNnI&t=0s)
+  - [Class central - (great to follow with split section)](https://www.classcentral.com/classroom/freecodecamp-computer-vision-and-perception-for-self-driving-cars-deep-learning-course-104874)
+
+Other related courses:
+
+Zero (Beginner):
+
+- [Introduction to Computer Vision - Udacity (Beginner)](https://www.udacity.com/course/computer-vision-basics--ud810)
+- [Introduction to Computer Vision for Self-Driving Cars - thinkautonomous](https://www.thinkautonomous.ai/blog/computer-vision-self-driving-cars-introduction/)
+- [Computer Vision Kaggle Free Course](https://github.com/afondiel/Computer-Vision-Kaggle-Free-Course)
+
+Apprentice (Intermediate):
+
+- [The Complete Self-Driving Cars course applied Deep Learning - Udemy](https://github.com/afondiel/The-Complete-Self-Driving-Car-Course-Udemy)
+- [Deep Learning for Autonomous Vehicles - Perception - NVIDIA](https://courses.nvidia.com/courses/course-v1:DLI+C-AV-01+V3/)
+
+
+Hero (Advanced):
+
+- [Advanced Computer Vision with TensorFlow - DeepLearningAI & Class Central](https://www.classcentral.com/course/advanced-computer-vision-with-tensorflow-22551)
+- [Visual Perception - Self-Driving Specialization - University of Toronto](https://github.com/afondiel/Self-Driving-Cars-Specialization/tree/main/Course3-Visual-Perception-for-Self-Driving-Cars)
+- [Introduction to Computer Vision (Advanced)](https://www.udacity.com/course/introduction-to-computer-vision--cd0360)
+- [Udacity Computer Vision Nano Degree Program](https://www.udacity.com/course/computer-vision-nanodegree--nd891)
+  - [Udacity Enterprise Syllabus Computer Vision nd891](https://business.udacity.com/rs/138-FQP-587/images/Udacity%20Enterprise%20Syllabus%20Computer%20Vision%20nd891.pdf)
+  - Blog Review: https://www.mltut.com/udacity-computer-vision-nanodegree-review/
+- [Advanced Computer Vision and Deep Learning - Udacity](https://www.udacity.com/course/advanced-computer-vision-and-deep-learning--cd0361)
+
+
+> ### "Vision is a picture of the future that produces passion." ~ Bill Hybels
+
