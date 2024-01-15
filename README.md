@@ -28,13 +28,13 @@ Learn computer vision and perception for self-driving cars with this deep learni
 ## Course Contents
 
 - [00-Introduction](./00-introduction.md)
-- [01-Fully Convolutional Network | Road Segmentation](./01-FCN-Road-Segmentation.md)
-- [02-YOLO | 2D Object Detection](./02-YOLO-2D-Object-Detection.md)
-- [03-Deep SORT | Object Tracking](./03-Deep-SORT-Object-Tracking.md)
-- [04-KITTI 3D Data Visualization | Homogenous Transformations](./04-KITTI-3D-Data-Visualization-Homogenous-Transformations.md)
-- [05-Multi Task Attention Network (MTAN) | Multi Task Learning](./05-MTAN-Multi-Task-Learning.md)
-- [06-SFA 3D | 3D Object Detection](./06-SFA-3D-3D-Object-Detection.md)
-- [07-UNetXST | Camera to Bird's Eye View](./07-UNetXST-Camera-to-Bird's-Eye-View.md)
+- [01-Road Segmentation | Fully Convolutional Network (FCN)](./01-Road-Segmentation-FCN.md)
+- [02-2D Object Detection | YOLO](./02-2D-Object-Detection-YOLO.md)
+- [03-Object Tracking | Deep SORT](./03-Object-Tracking-Deep-SORT.md)
+- [04-3D Data Visualization | Homogenous Transformations | KITTI](./04-3D-Data-Visualization-Homogenous-Transformations-KITTI.md)
+- [05-Multi Task Learning | Multi Task Attention Network (MTAN)](./05-Multi-Task-Learning-MTAN.md)
+- [06-3D Object Detection | SFA 3D](./06-3D-Object-Detection-SFA-3D.md)
+- [07-Camera to Bird's Eye View | UNetXST](./07-Camera-to-Birds-Eye-View-UNetXST.md )
 
 
 ## Read the Courses Online
@@ -42,7 +42,6 @@ Learn computer vision and perception for self-driving cars with this deep learni
 If you'd like to read the Courses Online, you can visit [Perception for Self-Driving Cars Applied Deep Learning](https://afondiel.github.io/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp.git).
 
 ## References
-
 
 - You may access this course using the links below: 
   - [freeCodeCamp - Computer Vision and Perception for Self-Driving Cars (Deep Learning Course)](https://www.youtube.com/watch?v=cPOtULagNnI&t=0s)
