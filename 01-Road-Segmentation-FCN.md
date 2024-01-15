@@ -4,7 +4,7 @@
 
 ## Overview
 
-- The goal of **Road Segmentation** is to identify the drivable area of the road in an image, which is essential for Self-Driving Cars to plan their path and avoid obstacles.
+The goal of **Road Segmentation** is to identify the drivable area of the road in an image, which is essential for Self-Driving Cars to plan their path and avoid obstacles.
 
 ## The Road Segmentation Problem
 
@@ -12,9 +12,9 @@
   
 <img src="./docs/01-Road-Seg/road_seg0.png" width="360" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
-- Naturally, easy for humans/drivers to identify the road 
-- More diffucult for cars to see the road the same way human does. 
-- To see the road the car/Machine uses segmented mask image of the road, as shown below:
+- It is straightforward for humans/drivers to discern between the drivable and non-drivable areas of the road.
+- Nevertheless, it is more challenging for cars to perceive the road in the same manner as humans do.
+- To achieve this, the car/machine utilizes a segmentation mask image to visually interpret the road, as illustrated below:
 
 <img src="./docs/01-Road-Seg/road_seg01.png" width="360" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
@@ -33,7 +33,6 @@
 **Fully Conv Net for Road Segmentation**
 
 <img src="./docs/01-Road-Seg/road_seg11.png" width="420" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
-
 
 - We use the **VGG-16** network as a backbone for the FCN model. VGG-16 is a pre-trained image classification network that can extract features from images.
 - We modify the VGG-16 network by adding **upsampling** layers and **skip connections** to produce a segmentation mask of the same size as the input image.
@@ -83,4 +82,7 @@ We compare the results of the different upsampling methods and FCN variants on t
   - Paper: https://arxiv.org/pdf/1411.4038.pdf
   - Code: https://github.com/Jackey9797/FCN
 - Fully Convolutional Network Paper: https://arxiv.org/abs/1411.4038
+- FCN challenger: The SegNet
+  - [SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/pdf/1511.00561.pdf)
+
 
