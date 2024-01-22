@@ -38,12 +38,10 @@
 # Authors and Organizations
 - The paper is authored by Jonathan Long, Evan Shelhamer, and Trevor Darrell from the University of California, Berkeley.
 - The paper was published in IEEE Transactions on Pattern Analysis and Machine Intelligence in 2017, based on an earlier version that appeared in the IEEE Conference on Computer Vision and Pattern Recognition in 2015.
-- The paper is available at [arXiv](^1^) and [IEEE Xplore](^2^).
+- The paper is available at [1](#) and [2](#).
 - The code and data are available at [GitHub](https://github.com/shelhamer/fcn).
 
-Source: Conversation with Bing, 17/01/2024
-(1) Fully Convolutional Networks for Semantic Segmentation. https://arxiv.org/abs/1411.4038.
-(2) Fully Convolutional Networks for Semantic Segmentation. https://ieeexplore.ieee.org/document/7478072.
-(3) 1 Fully Convolutional Networks for Semantic Segmentation - arXiv.org. https://arxiv.org/pdf/1605.06211.pdf.
-(4) undefined. https://doi.org/10.48550/arXiv.1411.4038.
-(5) undefined. https://ieeexplore.ieee.org/servlet/opac?punumber=34.
+## References
+
+- (1) Fully Convolutional Networks for Semantic Segmentation. https://arxiv.org/abs/1411.4038.
+- (2) Fully Convolutional Networks for Semantic Segmentation. https://ieeexplore.ieee.org/document/7478072.
