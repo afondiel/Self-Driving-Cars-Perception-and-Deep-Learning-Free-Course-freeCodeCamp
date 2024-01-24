@@ -85,4 +85,8 @@ We compare the results of the different upsampling methods and FCN variants on t
 - FCN challenger: The SegNet
   - [SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/pdf/1511.00561.pdf)
 
+- [Keras - Image segmentation with a U-Net-like architecture](https://keras.io/examples/vision/oxford_pets_image_segmentation/)
+
+
+
 
