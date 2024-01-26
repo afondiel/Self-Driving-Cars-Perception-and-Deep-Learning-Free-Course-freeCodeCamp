@@ -41,6 +41,23 @@ Learn computer vision and perception for self-driving cars with this deep learni
 
 If you'd like to read the Courses Online, you can visit [Perception for Self-Driving Cars Applied Deep Learning](https://afondiel.github.io/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp.git).
 
+## Notebooks
+
+
+|Chapiter|Exercises|
+|--|--|
+|1. Road Segmentation - Fully Convolutional Network (FCN)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|
+|2. 2D Object Detection - YOLO||
+|3. Object Tracking - Deep SORT||
+|4. 3D Data Visualization - Homogenous Transformations - KITTI||
+|5. Multi Task Learning - Multi Task Attention Network (MTAN)||
+|6. 3D Object Detection - SFA 3D||
+|7. Camera to Bird's Eye View - UNetXST||
+|||
+
+
+Happy Learning!
+
 ## References
 
 - You may access this course using the links below: 
