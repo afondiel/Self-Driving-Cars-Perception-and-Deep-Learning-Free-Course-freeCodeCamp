@@ -2,7 +2,7 @@
 
 ## Key Takeaways:
 
-- The course is about perception for self driving cars using computer vision and deep learning
+- The course is about perception for self driving cars using computer vision and deep learning.
 
 - Perception and Computer Vision form about **80%** of the work that Self-Driving Cars do to drive around.
 
@@ -15,18 +15,19 @@
   - **3D Object Detection**: detecting and localizing objects in 3D space using SFA 3D algorithm.
   - **Camera to Bird's Eye View**: converting the camera image to a top-down view of the scene using UNetXST algorithm.
 
-All the **datasets and code notebooks** are provided for the projects
-
-## Tools & frameworks
-
-- deep learning techniques 
-- PyTorch
-- TensorFlow
-- OpenCV
+All the **datasets and notebooks code** are provided for each project.
 
 ## Datasets
 
 - KITTI dataset: real-world data, which is a benchmark for autonomous driving research.
+
+## Tools & frameworks
+
+- Computer Vision techniques 
+- Deep Learning techniques 
+- OpenCV
+- TensorFlow
+- PyTorch
 
 ## References
 
