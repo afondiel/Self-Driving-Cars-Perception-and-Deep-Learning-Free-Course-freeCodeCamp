@@ -4,11 +4,11 @@
 
 ## Overview
 
-Notes and key takeaways of the Self-Driving Cars Perception applied Deep Learning Free Course from [freeCodeCamp.org](freeCodeCamp.org).
+Notes and key takeaways of the Self-Driving Cars Perception and Deep Learning Free Course from [freeCodeCamp.org](freeCodeCamp.org).
 
-Learn computer vision and perception for self-driving cars with this deep learning course. Covering road segmentation, object detection and tracking, and 3D data visualization.
+Learn some core tasks for computer vision and perception for self-driving cars using deep learning, including road segmentation, object detection and tracking, and 3D data visualization.
 
-**Prerequisites:**
+**Prerequisites**
 
 - ~2 hours, No certificate
 - Totally FREE (to access the lecture, check out the link in [References](#references) section)
@@ -18,7 +18,7 @@ Learn computer vision and perception for self-driving cars with this deep learni
 
 - Sakshay Mahna from [(Robotics with Sakshay)](https://www.youtube.com/channel/UC57lEMTXZzXYu_y0FKdW6xA)
   
-**Course Objectives:**
+**Course Objectives**
 
 - Gain a comprehensive understanding of the key computer vision tasks involved in self-driving car perception
 - Deepen knowledge of deep learning techniques, particularly Convolutional Neural Networks (CNNs), for addressing these tasks
@@ -39,10 +39,9 @@ Learn computer vision and perception for self-driving cars with this deep learni
 
 ## Read the Courses Online
 
-If you'd like to read the Courses Online, you can visit [Perception for Self-Driving Cars Applied Deep Learning](https://afondiel.github.io/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp.git).
+Read the courses Online, you can visit [Perception for Self-Driving Cars Applied Deep Learning](#).
 
 ## Notebooks
-
 
 |Chapiter|Exercises|
 |--|--|
