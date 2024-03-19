@@ -6,6 +6,23 @@
 
 The goal of **Road Segmentation** is to identify the drivable area of the road in an image, which is essential for Self-Driving Cars to plan their path and avoid obstacles.
 
+## Key Takeaways
+
+- The course is about **road segmentation** using **fully convolutional networks (FCN)**, which are a type of deep learning model for image segmentation.
+- We use the **KITTI road data set**, which contains images of roads and their segmentation masks.
+  
+## Requirements
+
+- KITTI Dataset: https://www.cvlibs.net/datasets/kitti/
+- Fully Convolutional Network Paper: https://arxiv.org/abs/1411.4038
+- [FCN Explained - Papers With Code](https://paperswithcode.com/method/fcn)
+  - Paper: https://arxiv.org/pdf/1411.4038.pdf
+  - Code: https://github.com/Jackey9797/FCN
+- VGGNet Paper: https://arxiv.org/pdf/1409.1556.pdf
+- FCN challenger: The SegNet
+  - [SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/pdf/1511.00561.pdf)
+
+
 ## The Road Segmentation Problem
 
 - Input image (from KITTI Road Dataset):
@@ -18,44 +35,54 @@ The goal of **Road Segmentation** is to identify the drivable area of the road i
 
 <img src="./docs/01-Road-Seg/road_seg01.png" width="360" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
+## Solution: Computer Vision traditional Techniques vs FCN
 
-## Key Takeaways
+- Traditional* CV required hardcoding of segmentation values of each image: 
+  - lots of errors
+  - does not generalized very good for a dynamic environment such as road vehicle with multiple scenarios
 
-- The course is about **road segmentation** using **fully convolutional networks (FCN)**, which are a type of deep learning model for image segmentation.
-- We use the **KITTI road data set**, which contains images of roads and their segmentation masks.
+- Deep learning technique such as FCN allows to learn multiples scenarios of the road from a large volume of data (datasets) and predict/ "readapt" to new scenarions.
 
 ### FCN Architecture 
 
 <img src="./docs/01-Road-Seg/new_alex_model.jpg" width="420" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
-*Src: FCN architecture from the original paper*
+Src: FCN architecture from the original [paper](https://arxiv.org/pdf/1411.4038.pdf)
 
 **Fully Conv Net for Road Segmentation**
 
 <img src="./docs/01-Road-Seg/road_seg11.png" width="420" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
-- We use the **VGG-16** network as a backbone for the FCN model. VGG-16 is a pre-trained image classification network that can extract features from images.
-- We modify the VGG-16 network by adding **upsampling** layers and **skip connections** to produce a segmentation mask of the same size as the input image.
+**FCN-8 architecture**
 
 <img src="./docs/01-Road-Seg/road_seg12.png" width="400" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
-*FCN-8 architecture*
 
-There are four different methods of **upsampling**:
+- We use the **VGG-16** network as a backbone for the FCN model. VGG-16 is a pre-trained image classification network that can extract features from images.
+
+![](https://www.researchgate.net/publication/331362325/figure/fig4/AS:733460041838592@1551881909040/Architectural-representation-of-the-VGG-16-deep-network-used-for-transfer-learning-main.ppm)
+
+- We modify the VGG-16 network by adding **upsampling** layers and **skip connections** to produce a segmentation mask of the same size as the input image.
+
+Upsampling operation increases the size of a given input (length x height). 
 
 <img src="./docs/01-Road-Seg/road_seg10.png" width="280" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
+
+There are four different methods of **upsampling** shown below (ranked from good to best):
 
 - **Bed of nails**: Assign the original pixel value to one cell and zero to the rest in the upsampled block.
 - **Nearest neighbor**: Assign the original pixel value to all the cells in the upsampled block.
 - **Interpolation**: Assign a weighted average of the nearest pixels in the original image to the upsampled cell.
 - **Transpose convolution**: Assign a learnable filter to the upsampled cell based on the original pixel value and its neighbors.
 
+
 There are three variants of the FCN model:
+
 - **FCN-32**: Upsample the last convolutional layer of VGG-16 by 32 times to get the segmentation mask.
 - **FCN-16**: Upsample the last convolutional layer of VGG-16 by 2 times and add it to the second last convolutional layer, then upsample the result by 16 times to get the segmentation mask.
 - **FCN-8**: Upsample the last convolutional layer of VGG-16 by 2 times and add it to the second last convolutional layer, then upsample the result by 2 times and add it to the third last convolutional layer, then upsample the final result by 8 times to get **the segmentation mask**.
 
-## Lab Resources
+## Lab Resources & Notebooks
 
 - Kaggle Dataset: 
   - https://www.kaggle.com/datasets/sakshaymahna/kittiroadsegmentation
