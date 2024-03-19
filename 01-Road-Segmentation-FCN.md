@@ -82,12 +82,16 @@ There are three variants of the FCN model:
 - **FCN-16**: Upsample the last convolutional layer of VGG-16 by 2 times and add it to the second last convolutional layer, then upsample the result by 16 times to get the segmentation mask.
 - **FCN-8**: Upsample the last convolutional layer of VGG-16 by 2 times and add it to the second last convolutional layer, then upsample the result by 2 times and add it to the third last convolutional layer, then upsample the final result by 8 times to get **the segmentation mask**.
 
-## Lab Resources & Notebooks
+## Lab : Resources & Notebooks
 
 - Kaggle Dataset: 
   - https://www.kaggle.com/datasets/sakshaymahna/kittiroadsegmentation
-- Kaggle Notebook: 
-  - https://www.kaggle.com/code/sakshaymahna/fully-convolutional-network/notebook
+
+- Notebook:
+
+|Lab (local)|Colab|Kaggle|
+|--|--|--|
+|[Lab repo](..\lab\notebooks\01-Road-Seg\road-segmentation-fcn-tf.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/road-segmentation-fcn-tf/edit)|
 
 - Hand Crafted Road Segmentation (Demo):
   - [Udacity Self Driving Cars Advanced Lane Detection](https://www.youtube.com/watch?v=X00uXRSB0go)
