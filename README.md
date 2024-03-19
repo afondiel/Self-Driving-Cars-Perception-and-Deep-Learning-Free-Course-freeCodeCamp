@@ -41,11 +41,11 @@ Learn some computer vision core tasks for self-driving cars perception stack usi
 
 Read the courses Online, you can visit [Perception for Self-Driving Cars Applied Deep Learning](#).
 
-## Notebooks
+## Lab - Notebooks
 
 |Chapiter|Exercises|
 |--|--|
-|1. Road Segmentation - Fully Convolutional Network (FCN)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|
+|1. Road Segmentation - Fully Convolutional Network (FCN)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/road-segmentation-fcn-tf/edit)|
 |2. 2D Object Detection - YOLO||
 |3. Object Tracking - Deep SORT||
 |4. 3D Data Visualization - Homogenous Transformations - KITTI||
