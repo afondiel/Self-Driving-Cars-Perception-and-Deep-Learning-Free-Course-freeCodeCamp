@@ -6,13 +6,13 @@
 
 Notes and key takeaways of the Self-Driving Cars Perception and Deep Learning Free Course from [freeCodeCamp.org](freeCodeCamp.org).
 
-Learn some core tasks for computer vision and perception for self-driving cars using deep learning, including road segmentation, object detection and tracking, and 3D data visualization.
+Learn some computer vision core tasks for self-driving cars perception stack using deep learning, including road segmentation, object detection and tracking, and 3D data visualization.
 
 **Prerequisites**
 
-- ~2 hours, No certificate
-- Totally FREE (to access the lecture, check out the link in [References](#references) section)
-- Intermediate level: basic Python and deep learning (required)
+- ~2 hours
+- Free course (No certificate awarded) 
+- Intermediate level: Python and deep learning (required)
 
 **Instructor**
 
@@ -59,9 +59,9 @@ Happy Learning!
 
 ## References
 
-- You may access this course using the links below: 
-  - [freeCodeCamp - Computer Vision and Perception for Self-Driving Cars (Deep Learning Course)](https://www.youtube.com/watch?v=cPOtULagNnI&t=0s)
-  - [Class central - (great to follow with split section)](https://www.classcentral.com/classroom/freecodecamp-computer-vision-and-perception-for-self-driving-cars-deep-learning-course-104874)
+Full course link: 
+- [freeCodeCamp - Computer Vision and Perception for Self-Driving Cars (Deep Learning Course)](https://www.youtube.com/watch?v=cPOtULagNnI&t=0s)
+- [Class central - (great to follow with split section)](https://www.classcentral.com/classroom/freecodecamp-computer-vision-and-perception-for-self-driving-cars-deep-learning-course-104874)
 
 Other related courses:
 
