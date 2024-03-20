@@ -88,6 +88,7 @@ There are three variants of the FCN model:
 
 - Kaggle Dataset: 
   - https://www.kaggle.com/datasets/sakshaymahna/kittiroadsegmentation
+    - Dataset description: https://www.cvlibs.net/datasets/kitti/eval_road.php
 - Fully Convolutional Network Paper: https://arxiv.org/abs/1411.4038
 
 **Notebooks**
