@@ -60,7 +60,7 @@ Src: FCN architecture from the original [paper](https://arxiv.org/pdf/1411.4038.
 
 - We use the **VGG-16** network as a backbone for the FCN model. VGG-16 is a pre-trained image classification network that can extract features from images.
 
-![VGG customized to FCN](https://www.researchgate.net/publication/355832269/figure/fig2/AS:1085500366557184@1635814863089/Proposed-fully-convolutional-network-with-a-VGG-16-backbone-The-architecture-uses-the.jpg)
+![VGG customized to FCN](./docs/01-Road-Seg/fcn-with-a-VGG-16-backbone-The-architecture-uses-the.png)
 
 - We modify the VGG-16 network by adding **upsampling** layers and **skip connections** to produce a segmentation mask of the same size as the input image.
 
