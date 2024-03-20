@@ -60,7 +60,7 @@ Src: FCN architecture from the original [paper](https://arxiv.org/pdf/1411.4038.
 
 - We use the **VGG-16** network as a backbone for the FCN model. VGG-16 is a pre-trained image classification network that can extract features from images.
 
-![](https://www.researchgate.net/publication/331362325/figure/fig4/AS:733460041838592@1551881909040/Architectural-representation-of-the-VGG-16-deep-network-used-for-transfer-learning-main.ppm)
+![VGG customized to FCN](https://www.researchgate.net/publication/355832269/figure/fig2/AS:1085500366557184@1635814863089/Proposed-fully-convolutional-network-with-a-VGG-16-backbone-The-architecture-uses-the.jpg)
 
 - We modify the VGG-16 network by adding **upsampling** layers and **skip connections** to produce a segmentation mask of the same size as the input image.
 
@@ -82,21 +82,55 @@ There are three variants of the FCN model:
 - **FCN-16**: Upsample the last convolutional layer of VGG-16 by 2 times and add it to the second last convolutional layer, then upsample the result by 16 times to get the segmentation mask.
 - **FCN-8**: Upsample the last convolutional layer of VGG-16 by 2 times and add it to the second last convolutional layer, then upsample the result by 2 times and add it to the third last convolutional layer, then upsample the final result by 8 times to get **the segmentation mask**.
 
-## Lab : Resources & Notebooks
+## Lab: Resources & Notebooks
+
+**Resources**
 
 - Kaggle Dataset: 
   - https://www.kaggle.com/datasets/sakshaymahna/kittiroadsegmentation
+- Fully Convolutional Network Paper: https://arxiv.org/abs/1411.4038
 
-- Notebook:
+**Notebooks**
 
 |Lab (local)|Colab|Kaggle|
 |--|--|--|
 |[Lab repo](..\lab\notebooks\01-Road-Seg\road-segmentation-fcn-tf.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/road-segmentation-fcn-tf/edit)|
 
+**Paper Implementation Pipeline**
+
+```text
+1. Import Libraries
+2. Load Dataset
+    - Preprocessing: load image-seg mask pairs
+    - train test validation split
+3. Apply Transformations
+    - normalization
+    - load img train
+    - load img test
+    - display samples
+4. Define Network (Build)
+    - create object VGG
+    - Customize to FCN
+5. Train
+    - Loss function
+    - Check model
+        - create a mask of the network prediction
+        - show prediction
+6. Test & Evaluation
+    - weighted img: compute mask over img
+    - process img mask: mask to compute single img
+    - save prediction
+    - save samples
+7. Examples
+    - Testing videos
+        - play
+        - process_image
+```
+
 - Hand Crafted Road Segmentation (Demo):
   - [Udacity Self Driving Cars Advanced Lane Detection](https://www.youtube.com/watch?v=X00uXRSB0go)
 
-## Conclusion
+## Retrospective
 
 We compare the results of the different upsampling methods and FCN variants on the KITTI road data set and shows that:
 
