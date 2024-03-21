@@ -4,12 +4,9 @@
 
 ## Overview
 
-The goal of **Road Segmentation** is to identify the drivable area of the road in an image, which is essential for Self-Driving Cars to plan their path and avoid obstacles.
-
-## Key Takeaways
-
 - The course is about **road segmentation** using **fully convolutional networks (FCN)**, which are a type of deep learning model for image segmentation.
 - We use the **KITTI road data set**, which contains images of roads and their segmentation masks.
+- The goal of **Road Segmentation** is to identify the drivable area of the road in an image, which is essential for Self-Driving Cars to plan their path and avoid obstacles.
   
 ## Requirements
 
