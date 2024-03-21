@@ -1,4 +1,4 @@
-# Chapiter 01 - Road Segmentation using Fully Convolutional Network (FCN)
+# Chapter 01 - Road Segmentation using Fully Convolutional Network (FCN)
 
 <img src="./docs/01-Road-Seg/cover.png" width="520" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
