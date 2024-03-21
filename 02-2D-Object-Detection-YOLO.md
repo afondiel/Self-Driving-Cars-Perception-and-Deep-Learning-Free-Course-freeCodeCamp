@@ -5,7 +5,8 @@
 ## Overview
 
 - This section is about **2D object detection** using **YOLO (You Only Look Once)**, which is a deep learning model that can detect and classify objects in images.
-- The course uses the **Lyft 3D Object Detection Challenge** data set, which contains camera and LIDAR data from a self-driving car.
+- The course uses the **Lyft 3D Object Detection Challenge** dataset, which contains camera and LIDAR data from a self-driving car.
+- For the purpose of this course only Camera sets are used. 
 
 ## Requirements
 
@@ -50,7 +51,7 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 
 - **YOLO** is a state-of-the-art, real-time object detection algorithm that uses a single convolutional neural network (CNN) to process an image in one pass.
 
-- YOLO v3 divides the input image into a 19x19 grid and predicts a vector for each cell that contains the probability, position, size, and class of the object in that cell.
+- YOLO v3 divides the input image into a 19x19 grid (cells) and predicts a vector for each cell that contains the probability, position, size, and class of the object in that cell.
 - YOLO v3 uses **anchor boxes** to handle multiple objects in the same cell. Each anchor box has a predefined shape and predicts a specific object.
 - YOLO v3 uses **intersection over union (IOU)** and **non-maximum suppression (NMS)** to eliminate overlapping and redundant bounding boxes and select the best ones.
 - YOLO applies a series of convolutional and pooling layers to the input image, followed by a fully connected layer that outputs a `tensor` of shape `(grid size x grid size x (bounding boxes x (4 + 1 + classes)))`.
