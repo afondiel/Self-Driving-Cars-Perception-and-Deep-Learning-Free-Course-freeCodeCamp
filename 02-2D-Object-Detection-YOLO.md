@@ -133,6 +133,7 @@ Taks:
 
 Additional resources:
 - [Course-3 - W4 - MODULE 4: 2D Object Detection, Course3 Visual Perception for Self-Driving Cars - U of T - Cousera](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course3-Visual-Perception-for-Self-Driving-Cars/course3-w4-notes.md)
+- [Object Detection using Deep Learning - OpenCV Team, COCO Dataset and MobileNet - Google](https://github.com/afondiel/Computer-Vision-OpenCV-Python-Free-Course-Udemy/tree/main/14_Object_Detection_using_Deep_Learning)
 - (1) [YOLO Object Detection Explained: A Beginner's Guide | DataCamp.](https://www.datacamp.com/blog/yolo-object-detection-explained) 
 - (2) [YOLO Algorithm for Object Detection Explained [+Examples] - Medium.](https://www.v7labs.com/blog/yolo-object-detection) 
 - (3) [Home - Ultralytics YOLOv8 Docs.](https://docs.ultralytics.com/) 
