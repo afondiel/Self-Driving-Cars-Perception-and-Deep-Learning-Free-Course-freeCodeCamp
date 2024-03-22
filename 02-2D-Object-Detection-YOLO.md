@@ -35,7 +35,7 @@
     - too bright
     - too dark  
 
-## Solution/Methodology: Deep Learning Neural Nets
+## Solutions/Methodologie: Deep Learning Algorithms - dynamic and fast computation, high scalability and accuracy
 
 ![](https://github.com/afondiel/Self-Driving-Cars-Specialization/raw/main/Course3-Visual-Perception-for-Self-Driving-Cars/resources/w4/img/l1-obj-det-math1.png)
 (Src: [Visual Perception - UoT - Cousera](https://github.com/afondiel/Self-Driving-Cars-Specialization/raw/main/Course3-Visual-Perception-for-Self-Driving-Cars/resources/w4/img/l1-obj-det-math1.png))
