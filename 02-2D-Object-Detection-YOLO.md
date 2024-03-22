@@ -14,7 +14,12 @@
 - YOLO v3 
 
 ## The Road Segmentation Problem
-- Given a 2D image's input, we are required to estimate the location defined by a `bounding box` and the `class` of all objects in the scene. 
+
+![](https://miro.medium.com/v2/resize:fit:850/1*alePWgdMrQeS7-WBVd0MVA.jpeg)
+
+(Src: [The AI Technology](https://medium.com/the-ai-technology/segmentation-vs-object-detection-vs-classification-things-you-need-to-know-b86b05f5167b)
+
+- Given a 2D image's input, we are required to estimate the `location` defined by a `bounding box` and the `class` of all objects in the scene. 
 - Usually, we choose classes that are relevant to our application.
 - For self-driving cars, we usually are most interested in object classes that are dynamic, that is ones that move through the scene.
 - These include vehicles in their subclasses, pedestrians, and cyclists.
@@ -35,7 +40,7 @@
 
 Given an input image x , we want to find the `function` (algorithm) that produces an output vector that includes the coordinates of the top-left of the box, x_min and y_min, and the coordinates of the lower right corner of the box, x_max and y_max, and a class score Sclass1 to Sclassk.
 
-- `YOLO (You Only Look Once)` is one of the ConvNet capable of producing this kind of outcome.
+- `YOLO (You Only Look Once)` is one of the ConvNet capable of producing this result.
 
 
 ## 2D Object Detection: Key Concepts
@@ -49,37 +54,45 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 
 ## YOLO (You Only Look Once) in Action: How it Works?
 
-- **YOLO** is a state-of-the-art, real-time object detection algorithm that uses a single convolutional neural network (CNN) to process an image in one pass.
+<img src="./docs/02-2d-object-det/2d-obj-det-yolo-concept.png" width="520" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
+- **YOLO** is a state-of-the-art, real-time object detection algorithm that uses a single convolutional neural network (CNN) to process an image in one pass.
 - YOLO v3 divides the input image into a 19x19 grid (cells) and predicts a vector for each cell that contains the probability, position, size, and class of the object in that cell.
 - YOLO v3 uses **anchor boxes** to handle multiple objects in the same cell. Each anchor box has a predefined shape and predicts a specific object.
-- YOLO v3 uses **intersection over union (IOU)** and **non-maximum suppression (NMS)** to eliminate overlapping and redundant bounding boxes and select the best ones.
+- YOLO v3 uses **Intersection over Union (IOU)** and **non-maximum suppression (NMS)** to eliminate overlapping and redundant bounding boxes and select the best ones.
+
+![](https://storage.googleapis.com/kaggle-media/competitions/rsna/IoU.jpg)
+(Src: [Lyft Dataset Kaggle](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/overview))
+
 - YOLO applies a series of convolutional and pooling layers to the input image, followed by a fully connected layer that outputs a `tensor` of shape `(grid size x grid size x (bounding boxes x (4 + 1 + classes)))`.
 - The output `tensor` can be interpreted as a set of predictions for each cell in the grid, where each prediction consists of 4 coordinates, 1 confidence score, and a vector of class probabilities.
-- YOLO applies a softmax function to the class probabilities and a sigmoid function to the confidence scores and the coordinates.
+- YOLO applies a `softmax function` to the `class probabilities` and a `sigmoid` function to the `confidence scores` and `the coordinates`.
 - YOLO applies a threshold to filter out low-confidence detections and performs NMS to remove duplicate detections.
+
+### YOLO benchmarks
+
 - YOLO is fast and accurate, achieving state-of-the-art performance on various benchmarks and real-world applications.
 - YOLO has several versions, such as YOLOv2, YOLOv3, YOLOv4, and YOLOv5, each introducing new features and improvements to enhance the speed, accuracy, and robustness of the algorithm.
-- The latest version of YOLO is YOLOv8, developed by Ultralytics, which supports a full range of vision AI tasks, such as detection, segmentation, pose estimation, and classification.
-
+- The latest version of YOLO is YOLOv8, developed by [Ultralytics](https://docs.ultralytics.com/), which supports a `full range of vision AI tasks`, such as:
+  - Detection
+  - Segmentation
+  - Pose estimation
+  - Classification ...
 
 ## Lab: Resources & Notebooks
 
 **Resources**
 
-- [Kaggle Competition/Dataset](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles)
+- [Kaggle Competition Dataset](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles)
+- [Dataset Visualization Notebook - EDA](https://www.kaggle.com/code/sakshaymahna/lyft-3d-object-detection-eda) 
 - [YOLO Paper](https://arxiv.org/pdf/1506.02640.pdf)
 
-**Paper Implementation Pipeline**
+**YOLOv3 Model Implementation**
 
-```
-- TBD
+- [YOLO3 (Detection, Training, and Evaluation) - @experiencor](https://github.com/experiencor/keras-yolo3)
+- [How to Perform Object Detection With YOLOv3 in Keras - Jason Brownlee - 2019 (old but gold)](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
 
-```
-
-**Notebooks**
-
-- [Visualization Notebook - EDA](https://www.kaggle.com/code/sakshaymahna/lyft-3d-object-detection-eda) 
+**Notebook**
 
 - [YOLO Notebook Implementation](https://www.kaggle.com/code/sakshaymahna/yolov3-keras-2d-object-detection) 
 
@@ -91,10 +104,16 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 
 ## Retrospective
 
+![](https://www.kaggleusercontent.com/kf/79252954/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..yWbyL6PXinV6qLAKuatBQA.OUQXGS5x_b2mbq89ozldEcxMwWgpSbTokVCijfBDmRdSTrRjKp9JQ1FBaSLN4EoYwS3PiQlnNP3OkIueJBRtPNAQAmg1XL3ju5DRurbBPsp7mABWx1zQuyIRCtrswS7Xx4sdhW5QoVCsy_FCnR-NItZ5lJJ0JhFhLTNrAKsMwdxbGZBSVBPuCMDGbAN-v4xD2At8ZvUylnChUpXftTLOeFyMSMbjAy18tDP-liRKX_LIz90YWgcrU3NSynhdanuVLr8BiKFsIY4er8fCCYUn_Uy2vmgDRtGMf1fsQiJPn7cjcE-0938ur9AA5btHqaDjEZVKx7o3VyZyQqclHkezeZvILQgemW15nvpR9YgRKgJaSMdIRQNSNRyB3ftTlOi-_UO7aEbl_Zv4FBES_rsJ82y7-_5X-SLWwbsrMQX1GstUHM0fXY86r2zgyBrT0bSP_YiROQhAApfoGEWC_zJnUIBOifGiU4RlgepwpuSpc9gaqbr2iOTbsgnZJvl7Qoz3rQ9fRXu7l5ZHJWQBhy8MoLkS1ASziLk20FjdGqnly09Hz5IE02SZfBjGfynkGRBVjgn5idAvnxbTlq8ainrk9TsK-Yl7gEyxQwoWk83MD4G291E7pAa_QVdSY6jQuRConTxomWS9Dd-UrjErRkVi00VMgfV1rKcgDceXAfDc3EJwtIV2ZOyo_eOS5-W_2EOs.QoTSvC3pepXFA6zXVb1lcQ/__results___files/__results___16_5.png)
+
+
+Alright, so these were the results that we got on running the Yolo v3 algorithm on the left and we already have very good algorithms like YOLO that do our tasks.
+
+However, there is some research that is still required on **[3D Object Detection](https://www.quora.com/How-different-is-3D-object-detection-from-2D-object-detection-for-a-researcher)**, which was also the motivation behind why Lyft conducted this competition as  well.
 
 ## References
 
-- [Kaggle Competition/Dataset](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles)
+- [Kaggle Competition Dataset](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles)
 - [Visualization Notebook - EDA](https://www.kaggle.com/code/sakshaymahna/lyft-3d-object-detection-eda) 
 - [YOLO Notebook Implementation](https://www.kaggle.com/code/sakshaymahna/yolov3-keras-2d-object-detection) 
 - [Playlist on Fundamentals of Object Detection](https://www.youtube.com/playlist?list=PL_IHmaMAvkVxdDOBRg2CbcJBq9SY7ZUvs) 
