@@ -125,6 +125,8 @@ There are three variants of the FCN model:
 |--|--|--|
 |[Lab repo](..\lab\notebooks\01-Road-Seg\road-segmentation-fcn-tf.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/road-segmentation-fcn-tf/edit)|
 
+**Additional Resources**
+
 - Hand Crafted Road Segmentation (Demo):
   - [Udacity Self Driving Cars Advanced Lane Detection](https://www.youtube.com/watch?v=X00uXRSB0go)
 
