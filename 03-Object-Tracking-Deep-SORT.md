@@ -95,7 +95,7 @@ The Deep SORT components:
 
 |Notebook|Colab|Kaggle|
 |--|--|--|
-|[Go to notebook](..\lab\notebooks\01-Road-Seg\road-segmentation-fcn-tf.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/02-2d-object-det/2d-object-detection-yolov3-keras.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sakshaymahna/deepsort/notebook)|
+|[Go to notebook](..\lab\notebooks\03-object-tracking-deep-sort.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/02-2d-object-det/2d-object-detection-yolov3-keras.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/object-tracking-deep-sort/edit)|
 
 
 **Additional resources**
