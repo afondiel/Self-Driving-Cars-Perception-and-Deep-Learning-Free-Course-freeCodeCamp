@@ -11,7 +11,9 @@
 ## Requirements
 
 - Kaggle Account
-- YOLO v3 
+- [YOLOv3 - Ultralytics](https://github.com/ultralytics/yolov3)
+- [YOLOv5 - Ultralytics (Optional)](https://github.com/ultralytics/yolov5)
+- [YOLOv8 - Ultralytics (Optional)](https://github.com/ultralytics/ultralytics)
 
 ## The Road Segmentation Problem
 
@@ -73,7 +75,7 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 
 - YOLO is fast and accurate, achieving state-of-the-art performance on various benchmarks and real-world applications.
 - YOLO has several versions, such as YOLOv2, YOLOv3, YOLOv4, and YOLOv5, each introducing new features and improvements to enhance the speed, accuracy, and robustness of the algorithm.
-- The latest version of YOLO is YOLOv8, developed by [Ultralytics](https://docs.ultralytics.com/), which supports a `full range of vision AI tasks`, such as:
+- The latest version (update: 2024) of YOLO is YOLOv8 , developed by [Ultralytics](https://docs.ultralytics.com/), which supports a `full range of vision AI tasks`, such as:
   - Detection
   - Segmentation
   - Pose estimation
@@ -92,9 +94,11 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 - [YOLO3 (Detection, Training, and Evaluation) - @experiencor](https://github.com/experiencor/keras-yolo3)
 - [How to Perform Object Detection With YOLOv3 in Keras - Jason Brownlee - 2019 (old but gold)](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
 
-**Notebook**
+**YOLO Notebook Implementation - course**
 
-- [YOLO Notebook Implementation](https://www.kaggle.com/code/sakshaymahna/yolov3-keras-2d-object-detection) 
+|Lab (local)|Colab|Kaggle|
+|--|--|--|
+|[Lab repo](..\lab\notebooks\01-Road-Seg\road-segmentation-fcn-tf.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/2d-object-detection-yolov3-keras/edit)|
 
 
 **Additional resources**
@@ -110,6 +114,13 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 Alright, so these were the results that we got on running the Yolo v3 algorithm on the left and we already have very good algorithms like YOLO that do our tasks.
 
 However, there is some research that is still required on **[3D Object Detection](https://www.quora.com/How-different-is-3D-object-detection-from-2D-object-detection-for-a-researcher)**, which was also the motivation behind why Lyft conducted this competition as  well.
+
+## Contributing
+
+Taks:
+- Test the same scenario w/ YOLOv5 available on Kaggle and compare the against the YOLOv3
+- Test with [YOLOv8](https://www.kaggle.com/models/keras/yolov8) (last till now: March 24) and compare w/ YOLOv5, and YOLOv5  
+
 
 ## References
 
