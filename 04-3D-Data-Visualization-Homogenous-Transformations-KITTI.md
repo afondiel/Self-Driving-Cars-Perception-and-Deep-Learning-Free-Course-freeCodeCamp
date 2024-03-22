@@ -17,7 +17,7 @@
 ## Homogenous Transformations Concepts
 
 ![](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/resources/w4/img/l2-all-together.png?raw=true)
-
+(Src: [Course2-State-Estimation-and-Localization-for-Self-Driving-Cars](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/course2-w4-notes.md))
 
 Homogeneous transformations are powerful tool to visualize the LIDAR data (point cloud) in different ways:
   - **Camera view**: Projecting the LIDAR points onto the image plane of the camera using the extrinsic and intrinsic parameters of the camera. The extrinsic parameters describe the position and orientation of the camera with respect to the LIDAR, and the intrinsic parameters describe the focal length and distortion of the camera lens.
