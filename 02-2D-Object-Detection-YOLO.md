@@ -94,7 +94,7 @@ Given an input image x , we want to find the `function` (algorithm) that produce
 - [YOLO3 (Detection, Training, and Evaluation) - @experiencor](https://github.com/experiencor/keras-yolo3)
 - [How to Perform Object Detection With YOLOv3 in Keras - Jason Brownlee - 2019 (old but gold)](https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
 
-**YOLO Notebook Implementation - course**
+**2D Object Detection Notebook Implementation**
 
 |Notebook|Colab|Kaggle|
 |--|--|--|
