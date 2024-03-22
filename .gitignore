@@ -131,7 +131,7 @@ dmypy.json
 .pyre/
 
 # doc
-*.pdf
+# *.pdf
 
 # mdbook
 # book
