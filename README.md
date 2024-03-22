@@ -57,6 +57,19 @@ Read the courses Online, you can visit [Perception for Self-Driving Cars Applied
 
 Happy Learning!
 
+## Contributing
+
+- Feel free to open a PR or an issue if you encounter some problem running the projects.
+
+Here's how you can contribute:
+
+- Fork this repository and clone it to your local machine.
+- Create a new branch with a descriptive name for your contribution.
+- Add your code and files to the branch and commit your changes.
+- Push your branch to your forked repository and create a pull request to the main repository.
+- Wait for your pull request to be reviewed and merged.
+
+
 ## References
 
 Full course link: 
