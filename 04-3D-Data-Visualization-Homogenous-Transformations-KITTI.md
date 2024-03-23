@@ -16,15 +16,16 @@
 
 ## Homogenous Transformations Concepts
 
-![](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/resources/w4/img/l2-all-together.png?raw=true)
-(Src: [Course2-State-Estimation-and-Localization-for-Self-Driving-Cars](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/course2-w4-notes.md))
-
 Homogeneous transformations are powerful tool to visualize the LIDAR data (point cloud) in different ways:
   - **Camera view**: Projecting the LIDAR points onto the image plane of the camera using the extrinsic and intrinsic parameters of the camera. The extrinsic parameters describe the position and orientation of the camera with respect to the LIDAR, and the intrinsic parameters describe the focal length and distortion of the camera lens.
   - **Bird's eye view**: Scaling and coloring the LIDAR points to fit the image frame and show the top-down view of the scene.
   - **Bounding boxes**: Drawing 3D boxes around the objects detected by the LIDAR using the extrinsic and intrinsic parameters of the camera.
 
 Homogeneous transformations components:
+
+![](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/resources/w4/img/l2-all-together.png?raw=true)
+(Src: [Course2-State-Estimation-and-Localization-for-Self-Driving-Cars](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/course2-w4-notes.md))
+
   - **Translation**: Moving the origin of a coordinate system to a different location in space.
   - **Rotation**: Changing the direction of the axes of a coordinate system while keeping the origin fixed.
   - **Rotation matrix**: A 3x3 matrix that can rotate a 3D vector by multiplying it with the matrix.
@@ -70,17 +71,23 @@ Homogeneous transformations components:
 
 |Notebook|Colab|Kaggle|
 |--|--|--|
-|[Go to notebook](..\lab\notebooks\03-object-tracking-deep-sort.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/03-object-tracking/object-tracking-deep-sort.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sakshaymahna/lidar-data-visualization/notebook)|
+|[Go to notebook](..\lab\notebooks\04-3d-data-viz\3d-data-visualization-kitti-lidar.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/03-object-tracking/object-tracking-deep-sort.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-data-visualization-kitti-lidar/edit)|
 
 
 **Additional resources**
 
 - [What Is Lidar and How Does It Work?](https://www.faro.com/fr-FR/Resource-Library/Article/What-is-Lidar)
 - [Why Tesla Won’t Use LIDAR](https://towardsdatascience.com/why-tesla-wont-use-lidar-57c325ae2ed5)
-
+- [State Estimation and Localization for Self-Driving Cars - University of Toronto Self-Drivng Car Specialization](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/course2-w4-notes.md)
+  - LIDAR data, operations, 3D Visualization
+- [Basics of 3D Computer Vision - Perception for Self-Driving Car - University of Toronto](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course3-Visual-Perception-for-Self-Driving-Cars/course3-w1-notes.md)
+  - Image Geometry, 3D - 2D transformation, 
+- [3D Detection Tracking Viewer - @hailanyi](https://github.com/hailanyi/3D-Detection-Tracking-Viewer)
 
 ## Retrospective
-
+```
+- todo: solve color_map_name issue
+```
 
 ## References
 
