@@ -72,7 +72,7 @@ Autonomous Driving - Paper](https://arxiv.org/pdf/2001.03343.pdf)
 
 |Notebook|Colab|Kaggle|
 |--|--|--|
-|[Go to notebook](./lab/notebooks/06-3d-obj-det/3d-object-detection-sfa3d.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/03-object-tracking/object-tracking-deep-sort.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-object-detection-sfa3d/edit)|
+|[Go to notebook](./lab/notebooks/06-3d-obj-det/3d-object-detection-sfa3d.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/06-3d-obj-det/3d-object-detection-sfa3d.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-object-detection-sfa3d/edit)|
 
 
 **Additional resources**
