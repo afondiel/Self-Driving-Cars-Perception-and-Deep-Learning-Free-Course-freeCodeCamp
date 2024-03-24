@@ -71,7 +71,7 @@ Homogeneous transformations components:
 
 |Notebook|Colab|Kaggle|
 |--|--|--|
-|[Go to notebook](..\lab\notebooks\04-3d-data-viz\3d-data-visualization-kitti-lidar.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/04-3d-data-viz/3d-data-visualization-kitti-lidar.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-data-visualization-kitti-lidar/edit)|
+|[Go to notebook](./lab/notebooks/04-3d-data-viz/3d-data-visualization-kitti-lidar.ipynb)| [![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/04-3d-data-viz/3d-data-visualization-kitti-lidar.ipynb)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-data-visualization-kitti-lidar/edit)|
 
 
 **Additional resources**
