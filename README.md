@@ -43,16 +43,15 @@ Read the courses Online, you can visit [Perception for Self-Driving Cars Applied
 
 ## Lab - Notebooks
 
-|Chapiter|Exercises|
+|Chapter|Exercises|
 |--|--|
-|1. Road Segmentation - Fully Convolutional Network (FCN)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/road-segmentation-fcn-tf/edit)|
-|2. 2D Object Detection - YOLO||
-|3. Object Tracking - Deep SORT||
-|4. 3D Data Visualization - Homogenous Transformations - KITTI||
-|5. Multi Task Learning - Multi Task Attention Network (MTAN)||
-|6. 3D Object Detection - SFA 3D||
-|7. Camera to Bird's Eye View - UNetXST||
-|||
+|[1. Road Segmentation - Fully Convolutional Network (FCN)](./lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/01-Road-Seg/road-segmentation-fcn-tf.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/road-segmentation-fcn-tf/edit)|
+|[2. 2D Object Detection - YOLO](./lab/notebooks/02-2d-object-det/2d-object-detection-yolov3-keras.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/02-2d-object-det/2d-object-detection-yolov3-keras.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/2d-object-detection-yolov3-keras/edit)|
+|[3. Object Tracking - Deep SORT](./lab/notebooks/03-object-tracking/03-object-tracking-deep-sort.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/03-object-tracking/object-tracking-deep-sort.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/object-tracking-deep-sort/edit)|
+|[4. 3D Data Visualization - Homogenous Transformations - KITTI](./lab/notebooks/04-3d-data-viz/3d-data-visualization-kitti-lidar.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/04-3d-data-viz/3d-data-visualization-kitti-lidar.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-data-visualization-kitti-lidar/edit)|
+|[5. Multi Task Learning - Multi Task Attention Network (MTAN)](./lab/notebooks/05-MTAN/mtan-multi-task-attention-network.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/05-MTAN/mtan-multi-task-attention-network.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](hhttps://www.kaggle.com/code/thepostitguy/mtan-multi-task-attention-network/edit)|
+|[6. 3D Object Detection - SFA 3D](./lab/notebooks/06-3d-obj-det/3d-object-detection-sfa3d.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/06-3d-obj-det/3d-object-detection-sfa3d.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/3d-object-detection-sfa3d/edit)|
+|[7. Camera to Bird's Eye View - UNetXST](./lab/notebooks/07-UNetXST/unetxst-camera-to-bird-s-eye-view.ipynb)|[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/afondiel/Self-Driving-Cars-Perception-and-Deep-Learning-Free-Course-freeCodeCamp/blob/main/lab/notebooks/07-UNetXST/unetxst-camera-to-bird-s-eye-view.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/thepostitguy/unetxst-camera-to-bird-s-eye-view/edit)|
 
 
 Happy Learning!
